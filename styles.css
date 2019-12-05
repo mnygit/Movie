@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  background-color: #1D1D1D;  
+  color: whitesmoke;
+  font-family: 'Solway', serif;
+
+}
+
+.header-section {
+  height: 200px;
+  margin-top: 25px;
+}
+
+
+
+/* Style for first section, top section  */
+
+.title-logo {
+  margin-top: 0px;
+  padding: 0;
+  font-family: 'Fredoka One', cursive;
+  margin-left: 15px;
+  text-transform: uppercase;
+  float: left;
+
+
+}
+#logo {
+  width: 50px; 
+  height: 65px; 
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+
+}
+
+#genre, #year { 
+  width: 100px;
+  
+}
+
+#query {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+#getMovies {
+  background-color:	#CF291D;
+  color: whitesmoke;
+  font-family: 'Solway', serif;
+  font-size: 18px;
+  width:120px;
+  height:35px;
+  margin-left: 5%;
+  position: relative;
+}
+
+
+/*  Style for section the movie list section   */
+
+.movie-section {
+  margin: 20px;
+  padding: 20px;
+  padding-top: 100px;
+  height: 900px;
+
+
+}
+
+#movieImg0,#movieImg1,#movieImg2 {
+ width: 182px;
+ height: 268px;
+ padding: 10px;
+}
+
+#movieImg3,#movieImg4,#movieImg5 {
+ width: 190px;
+ height: 268px;
+ padding: 10px;
+}
+
+#movieImg6,#movieImg7, #movieImg8 {
+ width: 190px;
+ height: 268px;
+ padding: 10px;
+
+}
+#movieImg9, #movieImg10, #movieImg11 {
+ width: 190px;
+ height: 268px;
+ padding: 10px;
+
+}
+
+
+/*  Style for footer   */
+
+ .footer {
+  height: 200px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+    
+ 
+
