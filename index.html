@@ -11,6 +11,7 @@
   <link rel='icon' href='https://img.icons8.com/color/48/000000/retro-tv.png' type='image/x-icon'>
   <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -19,7 +20,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
   <script src="scripts.js"></script>
-  <!-- header section -->
   <div class="header-section">
   <div class="row">
   <div class= "col-md-5"> 
@@ -28,7 +28,7 @@
   </div> 
   <div class= "col-md-7">
   <div id="query">
-  <h5>GENRE:&nbsp;
+  <h5>GENRE&nbsp;&nbsp;&nbsp;
   <select id="genre">
    <option value="28">Action</option>
    <option value="12">Adventure</option>
@@ -43,7 +43,7 @@
    <option value="27">Horror</option>
    <option value="10402">Music</option> 
    </select>
-     &nbsp;&nbsp;YEAR RELEASED:&nbsp;&nbsp;<input type="text" id="year" />
+     &nbsp;&nbsp;YEAR RELEASED &nbsp;&nbsp;<input type="text" id="year" />
      <button id="getMovies" type="button">Find Movies</button>
    </h5>
    </div> 
@@ -52,30 +52,43 @@
    </div>
    <div class ="movie-section">
    <div class="row">
-   <div class= "col-md-12"> 
-   <div id="movies">
-    <img id="movieImg0" src="http://www.kevingage.com/assets/clapboard.png" />      
-    <img id="movieImg1" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg2" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg3" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg4" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg5" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg6" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg7" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg8" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg9" src="http://www.kevingage.com/assets/clapboard.png" />
-    <img id="movieImg10" src="http://www.kevingage.com/assets/clapboard.png"/>
-    <img id="movieImg11" src="http://www.kevingage.com/assets/clapboard.png"/>
-  </div>
+   <div class= "col-md-12" id="movies">
+    <img class="movie-images" id="movieImg0" src="http://www.kevingage.com/assets/clapboard.png" />      
+    <img class="movie-images" id="movieImg1" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg2" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg3" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg4" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg5" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg6" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg7" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg8" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg9" src="http://www.kevingage.com/assets/clapboard.png" />
+    <img class="movie-images" id="movieImg10" src="http://www.kevingage.com/assets/clapboard.png"/>
+    <img class="movie-images" id="movieImg11" src="http://www.kevingage.com/assets/clapboard.png"/>
+    <img class="movie-images" id="movieImg12" src="http://www.kevingage.com/assets/clapboard.png"/>
+    <img class="movie-images" id="movieImg13" src="http://www.kevingage.com/assets/clapboard.png"/>
   </div>
 </div>
 </div>
 <div class="row">
-<div class= "col-md-12"> 
-<div class="footer"> 
-<p>Copyright 2019</p>
+<div class= "col-sm-12"> 
+    <div class="footer"> 
+    <h4>Movie Tubie TV<img class="bottom-image" src="https://img.icons8.com/color/48/000000/retro-tv.png"></h4>
+    <br/>
+    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=en"  target="_blank" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/"  target="_blank" class="fa fa-instagram"></a>
+    <br/><br/>
+    <p>Kindly built with TheMovieDB</p>
+<p>&copy; Copyright 2019</p>
+</div>
 </div>
 </div>
 </div>
 </body>
 </html>
+
+
+
+

@@ -51,7 +51,7 @@ function afterDataLoaded(dataObject){
     //- Look up a corresponding img element (in order)
     //- Set the img element's src tag to posterBaseUrl + the poster_path from the result movie
   
-     for(var i =0; i<12; i++) {
+     for(var i =0; i<14; i++) {
         var imgId = "#movieImg"+i
         var currentMovieObj = movies[i]
         var posterUrl = posterBaseUrl + currentMovieObj.poster_path
